@@ -18,4 +18,6 @@ def most_frequent(s,d):
   for i in sorted (d.values(),reverse=True):
     print(getkey(d,i),'=',i,end = '\n')
 
+most_frequent(s,d)
+
 #Thank you
