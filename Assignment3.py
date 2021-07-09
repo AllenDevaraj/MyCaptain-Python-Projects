@@ -5,9 +5,9 @@ s = s.lower()
 d = {}
 
 def getkey(d,val):
-	      for k,v in d.items():
-		      if v == val:
-			      return k
+	for k,v in d.items():
+		if v == val:
+			return k
 
 def most_frequent(s,d):
   for i in s:
